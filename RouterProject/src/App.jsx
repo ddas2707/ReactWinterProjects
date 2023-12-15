@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Header from './Components/header/Header'
 import './App.css'
-import InputBox from './Components/InputBox'
+import Home from './Components/Home/Home'
+import Footer from './Components/footer/Footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <InputBox />
+
     </>
   )
 }
